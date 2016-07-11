@@ -27,7 +27,7 @@ Follow,
 
 	bin/kafka-server-start.sh config/server2.properties > ~/kafka/kafka2.log &
 
-#Produce Hello wolrd message, you can produce it to multiple brokers, specify ports for each while producing messages
+#Produce Hello world message, you can produce it to multiple brokers, specify ports for each while producing messages
 
 
 	echo "Hello, World" | bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093 --topic helloworld > /dev/null
