@@ -86,8 +86,6 @@ RUN cd kafka_2.11-0.8.2.1/
 
 RUN /etc/init.d/zookeeper start
 
-#RUN kafka_2.11-0.8.2.1//bin/kafka-server-start.sh kafka_2.11-0.8.2.1/config/server.properties
-
 
 EXPOSE 2181 9092 2888 3888 
 
