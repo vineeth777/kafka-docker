@@ -79,6 +79,7 @@ RUN sudo apt-get update -y
 
 
 RUN wget "http://mirror.cc.columbia.edu/pub/software/apache/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz"
+
 RUN tar xvzf kafka_2.11-0.8.2.1.tgz
 
 
