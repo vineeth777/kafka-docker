@@ -21,7 +21,7 @@
 #Start kafka, Exit as running in background, move to kafka folder,
 
 
-	nohup bin/kafka-server-start.sh config/server.properties > ~/kafka/kafka.log 2>&1 &
+	bin/kafka-server-start.sh config/server.properties > ~/kafka/kafka.log  &
 
 #To start second broker, run start script with its server.properties file and exit to background
 
