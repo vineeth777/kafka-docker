@@ -1,7 +1,7 @@
-Install Kafka ( ubuntu)
+#Install Kafka ( ubuntu)
 
 
-Follow,
+#Follow,
 
 	 sudo apt-get install default-jre
 	 sudo apt-get install zookeeperd
