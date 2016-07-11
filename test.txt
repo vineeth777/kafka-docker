@@ -1,0 +1,153 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3  37072  6420 ?        Ss   Jul07   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jul07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jul07   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    Jul07   0:00 [kworker/u30:0]
+root         7  0.0  0.0      0     0 ?        S    Jul07   0:08 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Jul07   0:29 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/8]
+root        17  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/9]
+root        18  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/10]
+root        19  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/11]
+root        20  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/12]
+root        21  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/13]
+root        22  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuos/14]
+root        23  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcu_bh]
+root        24  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/0]
+root        25  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/1]
+root        26  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/2]
+root        27  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/3]
+root        28  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/4]
+root        29  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/5]
+root        30  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/6]
+root        31  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/7]
+root        32  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/8]
+root        33  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/9]
+root        34  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/10]
+root        35  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/11]
+root        36  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/12]
+root        37  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/13]
+root        38  0.0  0.0      0     0 ?        S    Jul07   0:00 [rcuob/14]
+root        39  0.0  0.0      0     0 ?        S    Jul07   0:00 [migration/0]
+root        40  0.0  0.0      0     0 ?        S    Jul07   0:00 [watchdog/0]
+root        41  0.0  0.0      0     0 ?        S<   Jul07   0:00 [khelper]
+root        42  0.0  0.0      0     0 ?        S    Jul07   0:00 [kdevtmpfs]
+root        43  0.0  0.0      0     0 ?        S<   Jul07   0:00 [netns]
+root        44  0.0  0.0      0     0 ?        S    Jul07   0:00 [xenwatch]
+root        45  0.0  0.0      0     0 ?        S    Jul07   0:00 [xenbus]
+root        47  0.0  0.0      0     0 ?        S<   Jul07   0:00 [writeback]
+root        48  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kintegrityd]
+root        49  0.0  0.0      0     0 ?        S<   Jul07   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kworker/u31:0]
+root        51  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kblockd]
+root        52  0.0  0.0      0     0 ?        S<   Jul07   0:00 [ata_sff]
+root        53  0.0  0.0      0     0 ?        S    Jul07   0:00 [khubd]
+root        54  0.0  0.0      0     0 ?        S<   Jul07   0:00 [md]
+root        55  0.0  0.0      0     0 ?        S<   Jul07   0:00 [devfreq_wq]
+root        57  0.0  0.0      0     0 ?        S    Jul07   0:00 [khungtaskd]
+root        58  0.0  0.0      0     0 ?        S    Jul07   0:00 [kswapd0]
+root        59  0.0  0.0      0     0 ?        SN   Jul07   0:00 [ksmd]
+root        60  0.0  0.0      0     0 ?        SN   Jul07   0:00 [khugepaged]
+root        61  0.0  0.0      0     0 ?        S    Jul07   0:00 [fsnotify_mark]
+root        62  0.0  0.0      0     0 ?        S    Jul07   0:00 [ecryptfs-kthrea]
+root        63  0.0  0.0      0     0 ?        S<   Jul07   0:00 [crypto]
+root        75  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kthrotld]
+root        76  0.0  0.0      0     0 ?        S    Jul07   0:01 [kworker/u30:1]
+root        77  0.0  0.0      0     0 ?        S    Jul07   0:00 [scsi_eh_0]
+root        78  0.0  0.0      0     0 ?        S    Jul07   0:00 [scsi_eh_1]
+root        99  0.0  0.0      0     0 ?        S<   Jul07   0:00 [deferwq]
+root       100  0.0  0.0      0     0 ?        S<   Jul07   0:00 [charger_manager]
+root       141  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kpsmoused]
+root       202  0.0  0.0      0     0 ?        S    Jul07   0:02 [jbd2/xvda1-8]
+root       203  0.0  0.0      0     0 ?        S<   Jul07   0:00 [ext4-rsv-conver]
+root       412  0.0  0.0  51508  1440 ?        Ss   Jul07   0:00 /lib/systemd/systemd-udevd --daemon
+root       579  0.0  0.1  10220  2896 ?        Ss   Jul07   0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+message+   897  0.0  0.0  39224  1352 ?        Ss   Jul07   0:00 dbus-daemon --system --fork
+root       912  0.0  0.0  43448  1672 ?        Ss   Jul07   0:00 /lib/systemd/systemd-logind
+syslog     927  0.0  0.1 260072  2772 ?        Ssl  Jul07   0:00 rsyslogd
+root      1028  0.0  0.0  14536   816 tty4     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty4
+root      1036  0.0  0.0  14536   824 tty5     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty5
+root      1040  0.0  0.0  14536   824 tty2     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty2
+root      1041  0.0  0.0  14536   824 tty3     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty3
+root      1043  0.0  0.0  14536   824 tty6     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty6
+root      1075  0.0  0.1  61368  2976 ?        Ss   Jul07   0:00 /usr/sbin/sshd -D
+root      1085  0.0  0.0   4364   596 ?        Ss   Jul07   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1086  0.0  0.0  23652   896 ?        Ss   Jul07   0:00 cron
+daemon    1087  0.0  0.0  19136   168 ?        Ss   Jul07   0:00 atd
+root      1161  0.0  0.0  14536   832 tty1     Ss+  Jul07   0:00 /sbin/getty -8 38400 tty1
+root      1162  0.0  0.0  12784   776 ttyS0    Ss+  Jul07   0:00 /sbin/getty -8 38400 ttyS0
+root      1264  0.0  0.0      0     0 ?        S<   Jul07   0:00 [kworker/u31:1]
+root      1267  0.0  0.0      0     0 ?        S    Jul07   0:00 [kauditd]
+root      4290  0.0  1.6 471992 33340 ?        Ssl  Jul07   1:15 /usr/bin/docker daemon --raw-logs
+root      4299  0.0  0.4 278772  8540 ?        Ssl  Jul07   0:01 docker-containerd -l /var/run/docker/libcontainerd/docker-containerd.sock --runtime docker-runc --start-timeout 2m
+root      4546  0.0  0.5 174700 11348 ?        Sl   Jul07   0:00 docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 80 -container-ip 172.17.0.2 -container-port 80
+root      4551  0.0  0.1 192268  3932 ?        Sl   Jul07   0:00 docker-containerd-shim 9105e765501ca83950db37f5b2727d48c4ddb75ff9d9e445f534ddfff0e91361 /var/run/docker/libcontainerd/9105e765501ca83950db37f5b2727d48c4ddb75ff9d9e445f534ddfff0e91361 docker-runc
+root      4564  0.0  0.0  18168  1988 pts/2    Ss+  Jul07   0:00 /bin/bash
+root      4613  0.0  0.6 188532 12964 ?        Ss   Jul07   0:01 /usr/sbin/apache2 -k start
+www-data  4618  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4619  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4623  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4624  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4625  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4626  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4627  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4628  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+www-data  4629  0.0  0.2 188556  5368 ?        S    Jul07   0:00 /usr/sbin/apache2 -k start
+root      4672  0.0  0.0   4444   760 pts/2    S    Jul07   0:00 /bin/sh /usr/bin/mysqld_safe
+message+  5045  0.0  2.9 517080 60716 pts/2    Sl   Jul07   0:27 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=mysql --log-error=/var/log/mysql/error.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock --port=3306
+root      6759  0.0  0.1 192268  3924 ?        Sl   Jul07   0:00 docker-containerd-shim aadf987d1beeb1078a9258d837df02450e69edc6c08bd24027156de44448675f /var/run/docker/libcontainerd/aadf987d1beeb1078a9258d837df02450e69edc6c08bd24027156de44448675f docker-runc
+root      6772  0.0  0.5  47768 11092 pts/7    Ss+  Jul07   0:11 /usr/bin/python /usr/bin/supervisord -n
+root      6789  0.0  2.5 2474916 53164 pts/7   Sl   Jul07   0:39 /usr/bin/java -Dzookeeper.log.dir=/var/log/zookeeper -Dzookeeper.root.logger=INFO,ROLLINGFILE -cp /etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar org.apache.zookeeper.server.quorum.QuorumPeerMain /etc/zookeeper/conf/zoo.cfg
+root      6790  0.0  0.0   4328   556 pts/7    S    Jul07   0:00 /bin/sh /usr/bin/start-kafka.sh
+root      6791  0.1  7.1 3110496 146888 pts/7  Sl   Jul07   1:36 /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Xmx1G -Xms1G -server -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -Djava.awt.headless=true -Xloggc:/opt/kafka_2.11-0.8.2.1/bin/../logs/kafkaServer-gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dkafka.logs.dir=/opt/kafka_2.11-0.8.2.1/bin/../logs -Dlog4j.configuration=file:/opt/kafka_2.11-0.8.2.1/bin/../config/log4j.properties -cp :/opt/kafka_2.11-0.8.2.1/bin/../core/build/dependant-libs-2.11*/*.jar:/opt/kafka_2.11-0.8.2.1/bin/../examples/build/libs//kafka-examples*.jar:/opt/kafka_2.11-0.8.2.1/bin/../contrib/hadoop-consumer/build/libs//kafka-hadoop-consumer*.jar:/opt/kafka_2.11-0.8.2.1/bin/../contrib/hadoop-producer/build/libs//kafka-hadoop-producer*.jar:/opt/kafka_2.11-0.8.2.1/bin/../clients/build/libs/kafka-clients*.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/jopt-simple-3.2.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka-clients-0.8.2.1.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka_2.11-0.8.2.1-javadoc.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka_2.11-0.8.2.1-scaladoc.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka_2.11-0.8.2.1-sources.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka_2.11-0.8.2.1-test.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/kafka_2.11-0.8.2.1.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/log4j-1.2.16.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/lz4-1.2.0.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/metrics-core-2.2.0.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/scala-library-2.11.5.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/scala-parser-combinators_2.11-1.0.2.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/scala-xml_2.11-1.0.2.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/slf4j-api-1.7.6.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/slf4j-log4j12-1.6.1.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/snappy-java-1.1.1.6.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/zkclient-0.3.jar:/opt/kafka_2.11-0.8.2.1/bin/../libs/zookeeper-3.4.6.jar:/opt/kafka_2.11-0.8.2.1/bin/../core/build/libs/kafka_2.10*.jar kafka.Kafka /opt/kafka_2.11-0.8.2.1/config/server.properties
+root      7041  0.0  0.1 105632  4092 ?        Ss   Jul07   0:00 sshd: ubuntu [priv] 
+ubuntu    7117  0.0  0.0 105632  1860 ?        S    Jul07   0:00 sshd: ubuntu@pts/0  
+ubuntu    7118  0.0  0.2  22128  4432 pts/0    Ss   Jul07   0:00 -bash
+root      7248  0.0  0.0  67896  2036 pts/0    S    Jul07   0:00 sudo -i
+root      7249  0.0  0.2  22040  4380 pts/0    S    Jul07   0:00 -bash
+root      7336  0.0  0.0  63248  1644 pts/0    S    Jul07   0:00 su - kafka
+kafka     7337  0.0  0.2  22392  4892 pts/0    S+   Jul07   0:00 -su
+zookeep+  8288  0.0  2.9 1529292 59684 ?       Ssl  Jul07   1:09 /usr/bin/java -cp /etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=false -Dzookeeper.log.dir=/var/log/zookeeper -Dzookeeper.root.logger=INFO,ROLLINGFILE org.apache.zookeeper.server.quorum.QuorumPeerMain /etc/zookeeper/conf/zoo.cfg
+kafka     8386  0.2  9.3 2047848 191204 ?      Sl   Jul07   5:00 java -Xmx1G -Xms1G -server -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -Djava.awt.headless=true -Xloggc:/home/kafka/kafka/bin/../logs/kafkaServer-gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dkafka.logs.dir=/home/kafka/kafka/bin/../logs -Dlog4j.configuration=file:/home/kafka/kafka/bin/../config/log4j.properties -cp :/home/kafka/kafka/bin/../core/build/dependant-libs-2.10.4*/*.jar:/home/kafka/kafka/bin/../examples/build/libs//kafka-examples*.jar:/home/kafka/kafka/bin/../contrib/hadoop-consumer/build/libs//kafka-hadoop-consumer*.jar:/home/kafka/kafka/bin/../contrib/hadoop-producer/build/libs//kafka-hadoop-producer*.jar:/home/kafka/kafka/bin/../clients/build/libs/kafka-clients*.jar:/home/kafka/kafka/bin/../libs/jopt-simple-3.2.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-javadoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-scaladoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-sources.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-test.jar:/home/kafka/kafka/bin/../libs/kafka-clients-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/log4j-1.2.16.jar:/home/kafka/kafka/bin/../libs/lz4-1.2.0.jar:/home/kafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/home/kafka/kafka/bin/../libs/scala-library-2.11.5.jar:/home/kafka/kafka/bin/../libs/scala-parser-combinators_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/scala-xml_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/slf4j-api-1.7.6.jar:/home/kafka/kafka/bin/../libs/slf4j-log4j12-1.6.1.jar:/home/kafka/kafka/bin/../libs/snappy-java-1.1.1.6.jar:/home/kafka/kafka/bin/../libs/zkclient-0.3.jar:/home/kafka/kafka/bin/../libs/zookeeper-3.4.6.jar:/home/kafka/kafka/bin/../core/build/libs/kafka_2.10*.jar kafka.Kafka /home/kafka/kafka/config/server.properties
+root      9179  0.0  0.0  19472   648 ?        S    Jul07   0:00 upstart-udev-bridge --daemon
+root      9183  0.0  0.0  15272   408 ?        S    Jul07   0:00 upstart-file-bridge --daemon
+root      9184  0.0  0.0  15256   396 ?        S    Jul07   0:00 upstart-socket-bridge --daemon
+root     18084  0.0  0.0      0     0 ?        S<   Jul07   0:00 [xfsalloc]
+root     18085  0.0  0.0      0     0 ?        S<   Jul07   0:00 [xfs_mru_cache]
+root     18086  0.0  0.0      0     0 ?        S<   Jul07   0:00 [xfslogd]
+root     18107  0.0  0.0      0     0 ?        S<   Jul07   0:00 [bioset]
+root     18454  0.0  0.2 105628  4200 ?        Ss   04:49   0:00 sshd: ubuntu [priv] 
+ubuntu   18530  0.0  0.1 106148  2164 ?        S    04:49   0:00 sshd: ubuntu@pts/5  
+ubuntu   18531  0.0  0.2  22124  4432 pts/5    Ss   04:49   0:00 -bash
+root     18549  0.0  0.1  67988  2140 pts/5    S    04:49   0:00 sudo -i
+root     18550  0.0  0.2  22036  4400 pts/5    S    04:49   0:00 -bash
+root     18566  0.0  0.0  63244  1708 pts/5    S    04:49   0:00 su - kafka
+kafka    18567  0.0  0.2  22036  4604 pts/5    S    04:49   0:00 -su
+root     19121  0.0  0.2 105628  4200 ?        Ss   06:13   0:00 sshd: ubuntu [priv] 
+ubuntu   19198  0.0  0.1 105988  2220 ?        S    06:13   0:00 sshd: ubuntu@pts/6  
+ubuntu   19205  0.0  0.2  22124  4432 pts/6    Ss   06:13   0:00 -bash
+root     19225  0.0  0.1  67988  2144 pts/6    S    06:13   0:00 sudo -i
+root     19226  0.0  0.2  22040  4584 pts/6    S    06:13   0:00 -bash
+root     19243  0.0  0.0  63244  1704 pts/6    S    06:13   0:00 su kafka
+kafka    19244  0.0  0.2  21988  4420 pts/6    S    06:13   0:00 bash
+kafka    20153  0.3  5.3 1440532 110472 pts/6  Sl+  06:37   0:57 java -Xmx512M -server -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -Djava.awt.headless=true -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dkafka.logs.dir=/home/kafka/kafka/bin/../logs -Dlog4j.configuration=file:/home/kafka/kafka/bin/../config/tools-log4j.properties -cp :/home/kafka/kafka/bin/../core/build/dependant-libs-2.10.4*/*.jar:/home/kafka/kafka/bin/../examples/build/libs//kafka-examples*.jar:/home/kafka/kafka/bin/../contrib/hadoop-consumer/build/libs//kafka-hadoop-consumer*.jar:/home/kafka/kafka/bin/../contrib/hadoop-producer/build/libs//kafka-hadoop-producer*.jar:/home/kafka/kafka/bin/../clients/build/libs/kafka-clients*.jar:/home/kafka/kafka/bin/../libs/jopt-simple-3.2.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-javadoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-scaladoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-sources.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-test.jar:/home/kafka/kafka/bin/../libs/kafka-clients-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/log4j-1.2.16.jar:/home/kafka/kafka/bin/../libs/lz4-1.2.0.jar:/home/kafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/home/kafka/kafka/bin/../libs/scala-library-2.11.5.jar:/home/kafka/kafka/bin/../libs/scala-parser-combinators_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/scala-xml_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/slf4j-api-1.7.6.jar:/home/kafka/kafka/bin/../libs/slf4j-log4j12-1.6.1.jar:/home/kafka/kafka/bin/../libs/snappy-java-1.1.1.6.jar:/home/kafka/kafka/bin/../libs/zkclient-0.3.jar:/home/kafka/kafka/bin/../libs/zookeeper-3.4.6.jar:/home/kafka/kafka/bin/../core/build/libs/kafka_2.10*.jar kafka.tools.ConsoleConsumer --zookeeper localhost:2181 --topic ps --from-beginning
+kafka    20285  0.5  9.5 2025304 195188 pts/0  Sl   06:45   1:29 java -Xmx1G -Xms1G -server -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -Djava.awt.headless=true -Xloggc:/home/kafka/kafka/bin/../logs/kafkaServer-gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=10000 -Dkafka.logs.dir=/home/kafka/kafka/bin/../logs -Dlog4j.configuration=file:bin/../config/log4j.properties -cp :/home/kafka/kafka/bin/../core/build/dependant-libs-2.10.4*/*.jar:/home/kafka/kafka/bin/../examples/build/libs//kafka-examples*.jar:/home/kafka/kafka/bin/../contrib/hadoop-consumer/build/libs//kafka-hadoop-consumer*.jar:/home/kafka/kafka/bin/../contrib/hadoop-producer/build/libs//kafka-hadoop-producer*.jar:/home/kafka/kafka/bin/../clients/build/libs/kafka-clients*.jar:/home/kafka/kafka/bin/../libs/jopt-simple-3.2.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-javadoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-scaladoc.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-sources.jar:/home/kafka/kafka/bin/../libs/kafka_2.11-0.8.2.1-test.jar:/home/kafka/kafka/bin/../libs/kafka-clients-0.8.2.1.jar:/home/kafka/kafka/bin/../libs/log4j-1.2.16.jar:/home/kafka/kafka/bin/../libs/lz4-1.2.0.jar:/home/kafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/home/kafka/kafka/bin/../libs/scala-library-2.11.5.jar:/home/kafka/kafka/bin/../libs/scala-parser-combinators_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/scala-xml_2.11-1.0.2.jar:/home/kafka/kafka/bin/../libs/slf4j-api-1.7.6.jar:/home/kafka/kafka/bin/../libs/slf4j-log4j12-1.6.1.jar:/home/kafka/kafka/bin/../libs/snappy-java-1.1.1.6.jar:/home/kafka/kafka/bin/../libs/zkclient-0.3.jar:/home/kafka/kafka/bin/../libs/zookeeper-3.4.6.jar:/home/kafka/kafka/bin/../core/build/libs/kafka_2.10*.jar kafka.Kafka config/server2.properties
+root     20621  0.0  0.0      0     0 ?        S    07:30   0:00 [kworker/0:1]
+root     20696  0.0  0.0      0     0 ?        S    07:31   0:00 [kworker/0:2]
+root     20731  0.0  0.1 200464  4024 ?        Sl   07:31   0:00 docker-containerd-shim 7f76da5cc2dc6371ae640d2d8cf11b3440d804bc57c8cc41447f6bd29527b645 /var/run/docker/libcontainerd/7f76da5cc2dc6371ae640d2d8cf11b3440d804bc57c8cc41447f6bd29527b645 docker-runc
+root     20744  0.0  0.0      0     0 ?        Ss   07:31   0:00 [sh]
+root     25662 98.4  0.0      0     0 ?        Zl   07:33 243:35 [java] <defunct>
+kafka    26507  0.0  0.0  17160  1292 pts/5    R+   11:40   0:00 ps aux
+kafka    26508  0.0  0.0  12576   836 pts/5    S+   11:40   0:00 sed -e s/]
+/]\n/g
+root     26609  0.0  0.0      0     0 ?        S    Jul07   0:00 [jfsIO]
+root     26610  0.0  0.0      0     0 ?        S    Jul07   0:00 [jfsCommit]
+root     26611  0.0  0.0      0     0 ?        S    Jul07   0:00 [jfsSync]
