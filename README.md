@@ -58,7 +58,7 @@
 
 
 
-#Contain everything to a Docker,
+#Contain this setup to a Docker,
 
 
 #Dockerfile,
