@@ -1,6 +1,0 @@
-[2016-07-07 12:50:30,212] INFO Closing socket connection to /127.0.0.1. (kafka.network.Processor)
-[2016-07-07 12:50:50,722] INFO Closing socket connection to /172.31.41.134. (kafka.network.Processor)
-[2016-07-07 12:51:06,396] INFO Closing socket connection to /127.0.0.1. (kafka.network.Processor)
-[2016-07-07 12:51:06,448] INFO Closing socket connection to /172.31.41.134. (kafka.network.Processor)
-[2016-07-07 12:51:16,778] INFO Closing socket connection to /127.0.0.1. (kafka.network.Processor)
-[2016-07-07 12:51:16,827] INFO Closing socket connection to /172.31.41.134. (kafka.network.Processor)
