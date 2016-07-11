@@ -9,14 +9,14 @@
 	 wget "http://mirror.cc.columbia.edu/pub/software/apache/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz"
 	 tar -xvzf ~/Downloads/kafka_2.11-0.8.2.1.tgz --strip 1
 
-#Configure
+#Configure, Check for broker id, and port 9091
 
-	nano ~/kafka/config/server.properties
+	nano /kafka/config/server.properties
 
-#Check for broker id, and port 9091
 
 #Copy server.properties to server2.properties and change broker id to 2 and port to 9093 (You can have more brokers , for it do the same process)
 
+	nano /kafka/config/server2.properties
 
 #Start kafka, Exit as running in background, move to kafka folder,
 
