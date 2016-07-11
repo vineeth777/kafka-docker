@@ -1,4 +1,4 @@
-#Install Kafka ( ubuntu)
+#Install and setup Kafka (Ubuntu)
 
 
 #Follow,
@@ -38,7 +38,6 @@
 	bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic helloworld --from-beginning
 
 	
-
 #Install perl with modules, 
 	
 	sudo apt-get install perl
@@ -52,8 +51,44 @@
 	./ps_into_json.sh && cat ps_aux.JSON | bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093 --sync --topic server_machine > /dev/null
 
 
-
 #Consume the same messages from another terminal,
 
 
 	bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic server_machine --from-beginning
+
+
+
+#Contain everything to a Docker,
+
+
+#Dockerfile,
+
+FROM ubuntu:14.04
+
+MAINTAINER vineethvijayan@qburst.com
+
+
+RUN sudo apt-get update -y
+RUN sudo apt-get install default-jre -y
+RUN  sudo apt-get install zookeeperd -y
+RUN sudo apt-get install wget -y
+RUN sudo apt-get install perl -y
+RUN sudo apt-get install cpanminus -y
+RUN sudo apt-get install build-essential -y
+RUN sudo apt-get install libproc-processtable-perl -y
+
+
+RUN wget "http://mirror.cc.columbia.edu/pub/software/apache/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz"
+RUN tar xvzf kafka_2.11-0.8.2.1.tgz
+
+
+RUN cd kafka_2.11-0.8.2.1/
+
+RUN /etc/init.d/zookeeper start
+
+#RUN kafka_2.11-0.8.2.1//bin/kafka-server-start.sh kafka_2.11-0.8.2.1/config/server.properties
+
+
+EXPOSE 2181 9092 2888 3888 
+
+
