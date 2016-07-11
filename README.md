@@ -69,13 +69,13 @@ MAINTAINER vineethvijayan@qburst.com
 
 
 RUN sudo apt-get update -y
-RUN sudo apt-get install default-jre -y
-RUN  sudo apt-get install zookeeperd -y
-RUN sudo apt-get install wget -y
-RUN sudo apt-get install perl -y
-RUN sudo apt-get install cpanminus -y
-RUN sudo apt-get install build-essential -y
-RUN sudo apt-get install libproc-processtable-perl -y
+    && sudo apt-get install default-jre -y
+    && sudo apt-get install zookeeperd -y
+    && sudo apt-get install wget -y
+    && sudo apt-get install perl -y
+    && sudo apt-get install cpanminus -y
+    && sudo apt-get install build-essential -y
+    && sudo apt-get install libproc-processtable-perl -y
 
 
 RUN wget "http://mirror.cc.columbia.edu/pub/software/apache/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz"
